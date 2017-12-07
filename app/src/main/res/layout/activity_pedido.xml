@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.danni.domiti.PedidoActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        >
+
+        <ListView
+            android:id="@+id/listaPedido"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:gravity="center"
+        android:background="@color/colorPrimary">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/botonlogin"
+            android:text="Borrar"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:onClick="bBorrar"
+            android:textColor="@color/icons"
+            android:textStyle="bold"
+            android:textSize="17dp"/>
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="match_parent"></LinearLayout>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/botonlogin"
+            android:text="Ok"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:onClick="bOk"
+            android:textColor="@color/icons"
+            android:textStyle="bold"
+            android:textSize="17dp"/>
+    </LinearLayout>
+
+</LinearLayout>

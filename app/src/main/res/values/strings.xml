@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Domiti</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="Regresar">Regresar</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="domitiInfo1">Domiti es una plataforma de domicilios para dispositivos moviles enfocada pricipalmente
+                                en pequeños comerciantes que no pueden acceder a grandes plataformas o desarrollar su
+                                propia app. Esta permite realizar pedidos a las tiendas registradas en la app Domiti Ventas
+                                que previamente han puesto sus productos en nuestra base de datos.</string>
+    <string name="domitiInfo2">Esta aplicación es desarrollada por los estudiantes de la Universidad de Antioquia:  Daniel de la Cruz
+                                y Santiago Ceron, como proyecto final del curso Programación de Dispositivos Moviles. </string>
+    <string name="title_activity_maps">Map</string>
+</resources>

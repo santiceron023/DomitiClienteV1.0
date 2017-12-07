@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/perfil"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/ubicacion"
+            android:icon="@drawable/ic_my_location_black_24dp"
+            android:title="Ubicacion" />
+
+    </group>
+
+    <item android:title="Sesion">
+        <menu>
+            <item
+                android:id="@+id/info_domiti"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="Acerca de Domiti" />
+            <item
+                android:id="@+id/cerrar_sesion"
+                android:icon="@drawable/ic_cancel_black_24dp"
+                android:title="Cerrar Sesion" />
+        </menu>
+    </item>
+
+</menu>

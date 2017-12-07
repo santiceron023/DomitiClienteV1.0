@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_margin="5dp"
+        android:id="@+id/imProducto"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="2.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tNombreProducto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nombre"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:id="@+id/tCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nombre"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/tMarca"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MARCA"
+            android:textSize="12dp"/>
+        <TextView
+            android:id="@+id/tNombreTienda"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NombreTienda"
+            android:textSize="12dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Antes:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tPrecioAntes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="precio"
+            android:textColor="@color/naranjitch"
+            android:textSize="14dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ahora:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tPrecioAhora"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="precio"
+            android:textColor="@color/icons"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
